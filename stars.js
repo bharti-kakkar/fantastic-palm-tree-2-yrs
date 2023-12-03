@@ -45,7 +45,7 @@ Star.prototype.draw = function() {
     c.beginPath()
     c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
-    c.shadowColor = '#E3EAEF'
+    c.shadowColor = '#EFE3EF'
     c.shadowBlur = 20
     c.fill()
     c.closePath()
@@ -139,8 +139,8 @@ function creatMountainRange(mountainAmount, height, color){
 
 // Implementation
 const backgroundGradient = c.createLinearGradient(0, 0, canvas.width, canvas.height)
-backgroundGradient.addColorStop(0, '#171e26')
-backgroundGradient.addColorStop(1, '#3f586b')
+backgroundGradient.addColorStop(0, '#201726')
+backgroundGradient.addColorStop(1, '#623f6b')
 
 let stars
 let miniStars
