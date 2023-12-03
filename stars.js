@@ -172,9 +172,9 @@ function animate() {
         backgroundStar.draw()
     })
 
-    if(flag) creatMountainRange(1, canvas.height * 0.7, '#384551')
-    if(flag) creatMountainRange(2, canvas.height * 0.6, '#2B3843')
-    if(flag) creatMountainRange(3, canvas.height * 0.4, '#26333E')
+    if(flag) creatMountainRange(1, canvas.height * 0.7, '#483851')
+    if(flag) creatMountainRange(2, canvas.height * 0.6, '#744c85')
+    if(flag) creatMountainRange(3, canvas.height * 0.4, '#c3a3cf')
     c.fillStyle = '#182028'
     c.fillRect(0, canvas.height - groundHeight, canvas.width, groundHeight)
     stars.forEach((star, index) => {
